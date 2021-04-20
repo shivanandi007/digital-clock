@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	font-family: "Exo", sans-serif;
+	color: #fff;
+	background: linear-gradient(-45deg, #270c04, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+h1 {
+	font-weight: 300;
+}
+
+h3 {
+	color: #eee;
+	font-weight: 100;
+}
+
+h5 {
+	color:#eee;
+	font-weight:300;
+}
+
+
+a:hover {
+	text-decoration: none;
+	color: #ddd;
+}
+.header{
+    text-align:center ;
+    margin-top: 90px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+
+}
+body{
+    border: 10px solid black;
+}
+.hello{
+	text-align: center;
+	font-family: serif;
+	font-size: 30px;
+}
+#continent{
+	text-align: center;
+
+}
+.digital_clock{
+	text-align: center;
+}
+#glow{
+	text-align: center;
+}
+.wrapper {
+    text-align: center;
+    font-size: 30px;
+    border: 10px solid black;
+    border-width: auto;
+    border-radius: 5px;
+    line-height: 28px;
+    padding: 5px;
+    color: whitesmoke;
+    background: black;
+	margin: 0 4rem;
+}
